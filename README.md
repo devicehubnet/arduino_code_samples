@@ -8,6 +8,7 @@ modification in that file. (increase the packet size as shown below).
 Replace 128 with 256 at this line
 
 define MQTT_MAX_PACKET_SIZE 128
+
 define MQTT_MAX_PACKET_SIZE 256
 
 # Requirements
