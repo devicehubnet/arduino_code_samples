@@ -35,7 +35,7 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 #define LED             5
 
 char clientId[]          = "Arduino_Ethernet";
-char sensorTopic[]    = "/a/"API_KEY"/p/"PROJECT_ID"/d/"DEVICE_UUID"/sensor/"AN_SENSOR_NAME;
+char sensorTopic[]    = "/a/"API_KEY"/p/"PROJECT_ID"/d/"DEVICE_UUID"/sensor/"AN_SENSOR_NAME"/data";
 char actuatorTopic[]  = "/a/"API_KEY"/p/"PROJECT_ID"/d/"DEVICE_UUID"/actuator/"ACTUATOR_NAME"/state";
 // server mqtt.devicehub.net ip
 char server[]            = "104.155.7.31";
