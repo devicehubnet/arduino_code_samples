@@ -93,7 +93,7 @@ void sendData(void)
 {
   //simulation for analog sensor and digital sensor 
   float analog_sensor = random(0, 1023.0);
-  unsigned int digital_sensor = random(0, 1);
+  unsigned int digital_sensor = random(0, 2);
 
   if(conn) 
   {
