@@ -31,8 +31,8 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
 char clientId[]       = "Arduino_Ethernet";
 char sensorTopic[]    = "/a/"API_KEY"/p/"PROJECT_ID"/d/"DEVICE_UUID"/sensor/"STRING_NAME"/data";
-// server mqtt.devicehub.net ip
-char server[]         = "104.155.7.31";
+// server mqtt.devicehub.net
+char server[]            = "mqtt.devicehub.net";
 char message_buffer[250];
 
 EthernetClient apiClient;
